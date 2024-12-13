@@ -1,0 +1,17 @@
+{
+  "name": "titleaggregator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scrape": "node src/scraper.js",
+    "generate": "node src/generateHTML.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "puppeteer": "^23.10.4"
+  }
+}
